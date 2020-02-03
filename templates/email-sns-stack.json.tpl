@@ -23,7 +23,7 @@
     },
     "NAME" : {
       "Description" : "Name of the SNS Topic",
-      "Value" : { "Fn::GetAtt" : ["SNSTopic", "TopicName"]}
+      "Value" : { "Fn::GetAtt" : ["EmailSNSTopic", "TopicName"]}
     }
   }
 }
